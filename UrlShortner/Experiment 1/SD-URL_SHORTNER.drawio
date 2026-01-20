@@ -1,0 +1,219 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.3.3">
+  <diagram name="Page-1" id="KUV76f6kQF-hzpZT1oYO">
+    <mxGraphModel dx="3429" dy="36" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3awlqc_iGa_Jy_A830f_-7" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="-476.25" y="1822" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.87;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;" target="3awlqc_iGa_Jy_A830f_-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-476.25" y="1870" />
+            </Array>
+            <mxPoint x="-642.925" y="1869.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="DB" vertex="1">
+          <mxGeometry height="60" width="60" x="-213.25" y="1807" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.523;entryY=-0.159;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-593.5" y="1835" as="sourcePoint" />
+            <mxPoint x="-435.0300000000002" y="1835.2299999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-11" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Req" vertex="1">
+          <mxGeometry height="30" width="50" x="-570.25" y="1842" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-12" edge="1" parent="1" source="3awlqc_iGa_Jy_A830f_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-213.25" y="1842" />
+            </Array>
+            <mxPoint x="-213.25" y="1837" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-13" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Database lookup: 20ms" vertex="1">
+          <mxGeometry height="30" width="150" x="-263.25" y="1777" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-14" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Server to DB request" vertex="1">
+          <mxGeometry height="30" width="140" x="-508.25" y="1797" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-15" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="-680" y="1837" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-16" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.data_encryption_key;" value="Data&#xa;encryption&#xa;key" vertex="1">
+          <mxGeometry height="60" width="60" x="-645.25" y="1747" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;LOW-LEVEL-DESIGN&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="265" x="-835.25" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;APPROACH-1-ENCRYPTION&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="430" x="-906.25" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-19" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" value="" vertex="1">
+          <mxGeometry height="155" width="124" x="-447.25" y="1377" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.082;exitY=0.357;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.006;entryY=0.332;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-743.2520000000002" y="1439.1569999999997" as="sourcePoint" />
+            <mxPoint x="-441.9860000000001" y="1437.8400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-21" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Req generateURL ( longURL )" vertex="1">
+          <mxGeometry height="26" width="179" x="-681.25" y="1412" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-22" edge="1" parent="1" source="3awlqc_iGa_Jy_A830f_-19" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.574;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-571.25" y="1543" as="sourcePoint" />
+            <mxPoint x="-754.25" y="1469" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-23" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Response shortURL" vertex="1">
+          <mxGeometry height="26" width="126" x="-657.25" y="1467" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.082;exitY=0.357;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-363.2520000000002" y="1442.3169999999998" as="sourcePoint" />
+            <mxPoint x="-50.25" y="1441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-25" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="When user request, the longURL&lt;br&gt;and shortURL both gets stoed in&amp;nbsp;&lt;br&gt;database" vertex="1">
+          <mxGeometry height="55" width="193" x="-287.25" y="1404" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-379.25" y="1320" />
+              <mxPoint x="20.75" y="1320" />
+            </Array>
+            <mxPoint x="-379.25" y="1394" as="sourcePoint" />
+            <mxPoint x="20.749999999999545" y="1385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-27" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Server will check with the&amp;nbsp;&lt;br&gt;database, whether the longURL exists&amp;nbsp;&lt;br&gt;with respect to shortURL" vertex="1">
+          <mxGeometry height="55" width="224" x="-286.25" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-28" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Re-directs long URL" vertex="1">
+          <mxGeometry height="30" width="130" x="-671.25" y="1377" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-29" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" value="" vertex="1">
+          <mxGeometry height="99" width="133.78" x="-44.02999999999997" y="1394" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;HIGH-LEVEL-DESIGN&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="265" x="-810" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;When client types the short URL&lt;/span&gt;&lt;br style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;-&amp;gt; redirect call will&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22text%3Bhtml%3D1%3BwhiteSpace%3Dwrap%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Brounded%3D0%3B%22%20value%3D%22%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2015px%3B%26quot%3B%26gt%3BHIGH-LEVEL-DESIGN%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2240%22%20width%3D%22160%22%20x%3D%22-720%22%20y%3D%221240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;be made to the server&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="-639.25" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-32" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-807.25" y="1410" as="sourcePoint" />
+            <mxPoint x="-807.25" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-807.25" y="1330" as="sourcePoint" />
+            <mxPoint x="-407.25" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.326;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" target="3awlqc_iGa_Jy_A830f_-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-407.25" y="1360" />
+            </Array>
+            <mxPoint x="-407.25" y="1330" as="sourcePoint" />
+            <mxPoint x="-357.25" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-426.25" y="1412" as="sourcePoint" />
+            <mxPoint x="-786.25" y="1412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;APPROACH-2-COUNTER SERVER&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="430" x="-900" y="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-37" edge="1" parent="1" source="3awlqc_iGa_Jy_A830f_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3awlqc_iGa_Jy_A830f_-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-38" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" value="" vertex="1">
+          <mxGeometry height="150" width="80" x="-465" y="1980" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-39" edge="1" parent="1" source="3awlqc_iGa_Jy_A830f_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.68;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-679.1250000000005" y="2240.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-40" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.user;fillColor=#D2D3D3;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="103" width="75" x="-870" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-41" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="" vertex="1">
+          <mxGeometry height="170" width="139.4" x="-131.4" y="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-42" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" value="" vertex="1">
+          <mxGeometry height="130" width="80" x="-465" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-43" edge="1" parent="1" source="3awlqc_iGa_Jy_A830f_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="3awlqc_iGa_Jy_A830f_-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-44" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" value="" vertex="1">
+          <mxGeometry height="130" width="80" x="-465" y="2370" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-45" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=0.855;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="3awlqc_iGa_Jy_A830f_-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-610.2975000000006" y="2190.46125" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-46" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="3awlqc_iGa_Jy_A830f_-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-598.625" y="2240.25" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-47" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.145;exitY=0.855;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3awlqc_iGa_Jy_A830f_-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-610.2975000000006" y="2290.0387499999997" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-49" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Load Balancers" vertex="1">
+          <mxGeometry height="30" width="110" x="-696" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-50" edge="1" parent="1" source="3awlqc_iGa_Jy_A830f_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.914;entryDx=0;entryDy=0;entryPerimeter=0;" target="3awlqc_iGa_Jy_A830f_-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-132.00000000000003" y="2260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-51" edge="1" parent="1" source="3awlqc_iGa_Jy_A830f_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.286;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;" target="3awlqc_iGa_Jy_A830f_-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-53" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="" vertex="1">
+          <mxGeometry height="95.6" width="113.81" x="-277.6" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-54" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Cache (Redis)" vertex="1">
+          <mxGeometry height="30" width="100" x="-184.60000000000002" y="2012.8000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-55" edge="1" parent="1" source="3awlqc_iGa_Jy_A830f_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.011;entryY=0.595;entryDx=0;entryDy=0;entryPerimeter=0;" target="3awlqc_iGa_Jy_A830f_-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-56" edge="1" parent="1" source="3awlqc_iGa_Jy_A830f_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.033;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" target="3awlqc_iGa_Jy_A830f_-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-57" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Database" vertex="1">
+          <mxGeometry height="30" width="70" x="-70.00000000000003" y="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-59" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58536;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="280" width="69" x="-675.5" y="2110" as="geometry" />
+        </mxCell>
+        <mxCell id="3awlqc_iGa_Jy_A830f_-60" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" value="" vertex="1">
+          <mxGeometry height="76" width="72.5" x="-853.75" y="1412" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
