@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+
+<body>
+<div layout:fragment="content">
+
+    <h1>Public Shortened URLs</h1>
+
+    <div class="table-responsive">   <!-- ✅ NEW wrapper -->
+
+        <!-- If empty -->
+        <div th:if="${#lists.isEmpty(shortUrls)}">
+            <p>No public URLs have been created yet.</p>
+        </div>
+
+        <!-- If not empty -->
+        <div th:unless="${#lists.isEmpty(shortUrls)}">
+            <table class="table table-striped table-hover table-bordered align-middle">
+                <thead>
+                <tr>
+                    <th>Short URL</th>
+                    <th>Original URL</th>
+                    <th>Created</th>
+                    <th>Expires</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="url : ${shortUrls}">
+                    <td>
+                        <a th:href="@{/{key}(key=${url.shortKey})}"
+                           th:text="${baseUrl + '/' + url.shortKey}"
+                           target="_blank"></a>
+                    </td>
+                    <td>
+                        <a th:href="${url.originalUrl}"
+                           th:text="${#strings.abbreviate(url.originalUrl, 50)}"
+                           target="_blank"></a>
+                    </td>
+                    <td th:text="${#temporals.format(url.createdAt, 'yyyy-MM-dd HH:mm')}"></td>
+                    <td th:text="${url.expiresAt != null ? #temporals.format(url.expiresAt, 'yyyy-MM-dd HH:mm') : 'Never'}"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
